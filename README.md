@@ -20,6 +20,6 @@ How can you help?
 
 You can contribute by using your expertise to perfect this little program, help ironing out and correcting any mistakes I may have made.
 
-Ideally, the program should have improved treatment of the key and source files so as to leave as few traces of their existance as possible.
+Ideally, the program should have improved treatment of the key and source files so as to leave as few traces of their existance as possible, but I'm afraid this is as far as my programming abilities take me.
 
 Thank you!
