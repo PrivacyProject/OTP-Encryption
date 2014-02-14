@@ -13,7 +13,7 @@ Purpose
 
 The purpose of this project is to create a program that is simple to use (though making the one time pad truly secure [read random] is arguably no trivial matter), reliable and most importantly trustworthy and available for everyone.
 
-As you can probably see from the code, I am no professional programmer, but I think the code makes fair use of the OTP concept.
+As you can probably see from the code, I am no professional programmer, but I think the code makes fair use of the OTP concept. I do however, having looked at other projects out there, believ there is much left to do before it can be called a good program. 
 
 How can you help?
 =====================
