@@ -28,9 +28,7 @@ if(geteuid() !=0)
 if(argc<4)
 	{
 	printf("\n");
-	printf("    *********************************************************\n");
-	printf("	 OTP-Bunny 1.0	\n");
-	printf("    *********************************************************\n\n");
+	printf("	 OTP 1.0	\n\n");
 
 	printf("	This program encrypts a  file using a random key\n");
 	printf("	and  generates an output file with the resulting\n");
@@ -47,7 +45,7 @@ if(argc<4)
 	printf("	  a Hardware Random Number Generator.\n");	
 	printf("	- NEVER be reused!\n\n");
 	printf("	The  author takes no  responsibility  for use of\n");
-	printf("	this program. Published under GNU General Public\n");
+	printf("	this program. Available under GNU General Public\n");
 	printf("	Licence v.2\n\n");
 
 	printf("	USAGE: OTP <source file> <output file> <keyfile>\n\n");
