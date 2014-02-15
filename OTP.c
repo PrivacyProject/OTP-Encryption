@@ -28,7 +28,7 @@ if(geteuid() !=0)
 if(argc<4)
 	{
 	printf("\n");
-	printf("	 OTP 1.0	\n\n");
+	printf("	OTP 1.0	\n\n");
 
 	printf("	This program encrypts a  file using a random key\n");
 	printf("	and  generates an output file with the resulting\n");
