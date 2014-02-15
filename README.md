@@ -15,13 +15,8 @@ Purpose
 
 The purpose of this project is to create a program that is simple nd uncomplicated to use (though making the one time pad truly secure [read random] is arguably no trivial matter), reliable and most importantly trustworthy and available for everyone, thus facilitating correct use of one-time pad encryption.
 
-As you can probably see from the code, I am no professional programmer, but I think the code makes fair use of the OTP concept. I do however, having looked at other projects out there, believ there is much left to do before it can be called a good program. 
 
 How can you help?
 =====================
 
-You can contribute by using your expertise to perfect this little program, help ironing out and correcting any mistakes I may have made.
-
-Ideally, the program should have improved treatment of the key and source files so as to leave as few traces of their existance as possible, but I'm afraid this is as far as my programming abilities take me.
-
-Thank you!
+You can contribute by using your expertise to perfect this little program in the true spirit of any open source project.
