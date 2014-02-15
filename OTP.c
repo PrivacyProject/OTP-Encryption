@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 
     if(argc != 4)
     {
-        puts("OTP 1.0 \n");
+        puts("OTP 1.1 \n");
 
         puts("This program encrypts a  file using a random key");
         puts("and  generates an output file with the resulting");
