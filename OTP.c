@@ -88,7 +88,7 @@ int main(int argc, char **argv)
     if (!buf)
     {
         perror("Error");
-	    free (buf);
+	free (buf);
         return -3;
     }
 
@@ -97,7 +97,7 @@ int main(int argc, char **argv)
     if(mlockall (MCL_CURRENT | MCL_FUTURE) < 0)
     {
         perror("mlockall");
-	    free (buf);
+	free (buf);
         return -4;
     }
 
@@ -106,7 +106,7 @@ int main(int argc, char **argv)
     {
         puts("Can't open source file.");
         perror("Error");
-	    free (buf);
+	free (buf);
         return -5;
     }
 
@@ -129,8 +129,8 @@ int main(int argc, char **argv)
     if((keybuf.st_size) < (statbuf.st_size))
     {
         puts("Source file is larger than keyfile.");
-	    puts("Action not allowed.");
-	    puts("Exiting...");
+	puts("Action not allowed.");
+	puts("Exiting...");
     	free (buf);
         return -7;
     }
@@ -140,7 +140,7 @@ int main(int argc, char **argv)
     {
         puts("Can't open output file.");
         perror("Error");
-	    free (buf);
+	free (buf);
         return -8;
     }
 
@@ -174,7 +174,7 @@ int main(int argc, char **argv)
         {
             puts("Unable to delete the file.");
             perror("Error");
-	        free (buf);
+	    free (buf);
             return -9;
         }
     }
@@ -190,7 +190,7 @@ int main(int argc, char **argv)
         {
             puts("Unable to delete the file.");
             perror("Error");
-	        free (buf);
+	    free (buf);
             return -10;
         }
     }
