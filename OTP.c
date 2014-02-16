@@ -93,7 +93,7 @@ int main(int argc, char **argv)
     }
 
     /* Lock down pages mapped to processes */
-    puts("Locking down processes...");
+    puts("Locking down processes.");
     if(mlockall (MCL_CURRENT | MCL_FUTURE) < 0)
     {
         perror("mlockall");
@@ -143,8 +143,9 @@ int main(int argc, char **argv)
 	free (buf);
         return -8;
     }
-
+    
     /* Encrypt/Decrypt and write to output file. */
+    puts("Encrypting/Decrypting...");
     while (count < (statbuf.st_size))
     {
         key=fgetc(keyfile);
