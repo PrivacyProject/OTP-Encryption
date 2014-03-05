@@ -13,7 +13,7 @@ As a quick search on Wikipedia will tell you "the one-time pad (OTP) is a type o
 Purpose
 =====================
 
-The purpose of this project is to create a program that is simple nd uncomplicated to use (though making the one time pad truly secure [read random] is arguably no trivial matter), reliable and most importantly trustworthy and available for everyone, thus facilitating correct use of one-time pad encryption.
+The purpose of this project is to create a program that is simple and uncomplicated to use (though making the one time pad truly secure [read random] is arguably no trivial matter), reliable and most importantly trustworthy and available for everyone, thus facilitating correct use of one-time pad encryption.
 
 
 How can you help?
